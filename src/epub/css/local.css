@@ -7,7 +7,6 @@
 }
 
 header{
-	text-align: center;
 	font-variant: small-caps;
 }
 
@@ -36,7 +35,7 @@ footer{
 }
 
 [epub|type~="z3998:postscript"]{
-	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+	margin-top: 1em;
 }
