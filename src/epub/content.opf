@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rolf-boldrewood/robbery-under-arms</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-03-23T17:35:15Z</dc:date>
+		<meta property="dcterms:modified">2021-03-23T17:35:15Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -52,15 +52,15 @@
 		<dc:description id="description">A young Australian man and his brother are led into a life of crime, becoming cattle stealers, bank robbers and bushrangers before being caught.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Robbery Under Arms&lt;/i&gt;, subtitled &lt;i&gt;A Story of Life and Adventure in the Bush and in the Goldfields of Australia&lt;/i&gt; was published in serial form in the &lt;i&gt;Sydney Mail&lt;/i&gt; newspaper between July 1882 and August 1883. It was published under the name of &lt;a href="https://standardebooks.org/ebooks/rolf-boldrewood"&gt;Rolf Boldrewood&lt;/a&gt;, a pseudonym for Thomas Alexander Browne, a police magistrate and gold commissioner.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Robbery Under Arms&lt;/i&gt; is an entertaining adventure story told from the first person point of view of Richard (“Dick”) Marston, in the form of a journal written from jail where he is waiting to be hanged for his crimes. Marston and his brother Jim are led astray as young men by their father, who made money by cattle “duffing” or stealing. They are introduced to their father’s associate, known only as Captain Starlight, a clever and charming fraudster. After a spell in jail, from which he escapes, Marston, his brother and father are persuaded by Starlight to operate as bank robbers and bushrangers and they have to live a life continually on the run from the police. Despite this, Dick and Jim also manage to spend a considerable time prospecting for gold, and the gold rush and the fictious gold town of Turon are well described.&lt;/p&gt;
-			&lt;p&gt;The character of Captain Starlight is based largely on the real-life exploits of bushrangers Harry Redford and Thomas Smith, the latter known as Captain Midnight.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Robbery Under Arms&lt;/i&gt; is an entertaining adventure story told from the first person point of view of Richard “Dick” Marston. The story is in the form of a journal written from jail where he’s waiting to be hanged for his crimes. Marston and his brother Jim are led astray as young men by their father, who made money by cattle “duffing,” or stealing. They are introduced to their father’s associate, known only as Captain Starlight, a clever and charming fraudster. After a spell in jail, from which he escapes, Marston, his brother, and father are persuaded by Starlight to operate as bank robbers and bushrangers. They embark on a life continually on the run from the police. Despite this, Dick and Jim also manage to spend a considerable time prospecting for gold, and the gold rush and the fictious gold town of Turon are described in detail.&lt;/p&gt;
+			&lt;p&gt;The character of Captain Starlight is based largely on the real-life exploits of bushrangers Harry Redford and Thomas Smith, the latter known as “Captain Midnight.”&lt;/p&gt;
 			&lt;p&gt;Regarded as a classic of Australian literature, &lt;i&gt;Robbery Under Arms&lt;/i&gt; has never been out of print, and has been the basis of several adaptations in the form of films and television serials.&lt;/p&gt;
 		</meta>
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1198</dc:source>
 		<dc:source>https://archive.org/details/cu31924013247444</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">214622</meta>
+		<meta property="se:reading-ease.flesch">78.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Robbery_Under_Arms</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rolf-boldrewood_robbery-under-arms</meta>
 		<dc:creator id="author">Rolf Boldrewood</dc:creator>
@@ -81,6 +81,10 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="sponsor">Google</dc:contributor>
+		<meta property="file-as" refines="#sponsor">Google</meta>
+		<meta property="se:url.homepage" refines="#sponsor">https://www.google.com</meta>
+		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
@@ -90,6 +94,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
