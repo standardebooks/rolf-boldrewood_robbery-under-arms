@@ -59,6 +59,7 @@
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1198</dc:source>
 		<dc:source>https://archive.org/details/cu31924013247444</dc:source>
+		<dc:source>https://trove.nla.gov.au/newspaper/article/161925714</dc:source>
 		<meta property="se:word-count">214622</meta>
 		<meta property="se:reading-ease.flesch">78.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Robbery_Under_Arms</meta>
@@ -93,11 +94,15 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<dc:contributor id="producer-3">Perry Middlemiss</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Middlemiss, Perry</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
