@@ -2,7 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-8.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-024</code>
 			<reason>Matched text is not an actual book title.</reason>
 		</ignore>
 	</file>
