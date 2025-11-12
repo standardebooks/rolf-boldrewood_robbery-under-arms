@@ -129,8 +129,8 @@
 		<meta property="file-as" refines="#author">Boldrewood, Rolf</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Rolf_Boldrewood</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50042832</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William Lister Lister</dc:contributor>
 		<meta property="file-as" refines="#artist">Lister Lister, William</meta>
@@ -151,8 +151,8 @@
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
