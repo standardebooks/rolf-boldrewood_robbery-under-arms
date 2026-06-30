@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/rolf-boldrewood/robbery-under-arms</dc:identifier>
 		<dc:date>2021-03-23T17:35:15Z</dc:date>
 		<meta property="dcterms:modified">2021-03-23T17:35:15Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -49,7 +50,7 @@
 		<meta property="term" refines="#subject-3">sh85018255</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh00005926</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A young Australian man and his brother are led into a life of crime, becoming cattle stealers, bank robbers and bushrangers before being caught.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Robbery Under Arms&lt;/i&gt;, subtitled &lt;i&gt;A Story of Life and Adventure in the Bush and in the Goldfields of Australia&lt;/i&gt;, was published in serial form in the &lt;i&gt;Sydney Mail&lt;/i&gt; newspaper between July 1882 and August 1883. It was published under the name of &lt;a href="https://standardebooks.org/ebooks/rolf-boldrewood"&gt;Rolf Boldrewood&lt;/a&gt;, a pseudonym for Thomas Alexander Browne, a police magistrate and gold commissioner.&lt;/p&gt;
@@ -120,37 +121,38 @@
 		<dc:source>https://trove.nla.gov.au/newspaper/article/162026743</dc:source>
 		<dc:source>https://trove.nla.gov.au/newspaper/article/162023127</dc:source>
 		<dc:source>https://trove.nla.gov.au/newspaper/article/162026369</dc:source>
-		<meta property="se:production-notes">This edition is based on the 1889 abridged version of the novel but restores textual material cut from that edition, by transcribing the missing passages from the original serialization in the Sydney Mail newspaper. In trying to identify here the missing text now included, note that the chapter numbering becomes confusing in the serialization because the newspaper skipped chapter numbers 36 and 58. I will stick to the numbers given in the newspaper, though they don’t perfectly match those in our edition because of this. In summary: (1) missing paragraph at the end of Chapter 17 of the serial version, starting “As for Starlight”; (2) missing paragraph at the end of Chapter 21, starting “She turned away without another word”; (3) missing start of Chapter 23 running to before “Because it’s too late”; (4) missing text in the middle of Chapter 24, from “As it turned out we all got safe” through all of Chapter 25 and 26 (which were omitted in the abridged version) to before “Our next chance” in Chapter 27 of the serial version); (5) missing end of Chapter 35 from “There was no cheering after this” through to before “We were desperately fidgety” in Chapter 37; (6) missing end of Chapter 38 and start of Chapter 39 from “I never could make out” down to before “While we were taking it easy”; (7) all of Chapter 45 starting “We mounted, and cleared then” down to before “We hadn’t been long at home” in Chapter 46; (8) missing paragraphs in the middle of Chapter 55 from “Up the mountain side track” down to before “Next day after that I was at Willaroon; (9) missing paragraph in chapter 57 starting “But didn’t I feel” down to before “Sometimes I felt”; (10) missing end of Chapter 57 from “After a bit I got better” down to the end of the chapter.</meta>
-		<meta property="se:word-count">237183</meta>
-		<meta property="se:reading-ease.flesch">78.08</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Robbery_Under_Arms</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/rolf-boldrewood_robbery-under-arms</meta>
+		<meta property="schema:wordCount">237183</meta>
+		<meta property="schema:educationalLevel">78.08</meta>
+		<link href="https://en.wikipedia.org/wiki/Robbery_Under_Arms" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/rolf-boldrewood_robbery-under-arms" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Rolf Boldrewood</dc:creator>
 		<meta property="file-as" refines="#author">Boldrewood, Rolf</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Rolf_Boldrewood</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50042832</meta>
+		<link href="https://en.wikipedia.org/wiki/Rolf_Boldrewood" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50042832.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William Lister Lister</dc:contributor>
 		<meta property="file-as" refines="#artist">Lister Lister, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/W._Lister_Lister</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2008009079</meta>
+		<link href="https://en.wikipedia.org/wiki/W._Lister_Lister" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2008009079.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Alan R. Light</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Light, Alan</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Google</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Google</meta>
-		<meta property="se:url.homepage" refines="#sponsor">https://www.google.com/</meta>
+		<link href="https://www.google.com/" refines="#sponsor" rel="schema:url"/>
 		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
@@ -162,7 +164,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 		<dc:contributor id="producer-3">Perry Middlemiss</dc:contributor>
 		<meta property="file-as" refines="#producer-3">Middlemiss, Perry</meta>
