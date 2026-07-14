@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Robbery Under Arms: A Story of Life and Adventure in the Bush and in the Goldfields of Australia</dc:title>
 		<meta property="file-as" refines="#fulltitle">Robbery Under Arms: A Story of Life and Adventure in the Bush and in the Goldfields of Australia</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Frontier and pioneer life -- Australia -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Gold mines and mining -- Australia -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Bushrangers -- Australia -- Fiction</dc:subject>
