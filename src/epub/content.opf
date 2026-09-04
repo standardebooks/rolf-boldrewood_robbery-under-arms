@@ -38,10 +38,10 @@
 		<dc:title id="fulltitle">Robbery Under Arms: A Story of Life and Adventure in the Bush and in the Goldfields of Australia</dc:title>
 		<meta property="file-as" refines="#fulltitle">Robbery Under Arms: A Story of Life and Adventure in the Bush and in the Goldfields of Australia</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Frontier and pioneer life -- Australia -- Fiction</dc:subject>
-		<dc:subject id="subject-2">Gold mines and mining -- Australia -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Bushrangers -- Australia -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Australia -- Gold discoveries -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Frontier and pioneer life--Australia--Fiction</dc:subject>
+		<dc:subject id="subject-2">Gold mines and mining--Australia--Fiction</dc:subject>
+		<dc:subject id="subject-3">Bushrangers--Australia--Fiction</dc:subject>
+		<dc:subject id="subject-4">Australia--Gold discoveries--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008104175</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
