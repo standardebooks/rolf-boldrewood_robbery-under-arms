@@ -129,7 +129,7 @@
 		<link href="https://github.com/standardebooks/rolf-boldrewood_robbery-under-arms" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Rolf Boldrewood</dc:creator>
 		<meta property="file-as" refines="#author">Boldrewood, Rolf</meta>
-		<link href="https://en.wikipedia.org/wiki/Rolf_Boldrewood" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Alexander_Browne" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50042832.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
